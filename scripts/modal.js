@@ -185,7 +185,7 @@ class Modal {
         altKey: event.altKey,
         ctrlKey: event.ctrlKey,
         shiftKey: event.shiftKey,
-        code: event.code
+        code: event.key,
       }
       const key = JSON.stringify(keyChord)
       const command = this.context.commands[key]
